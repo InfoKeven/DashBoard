@@ -41,3 +41,52 @@ nav {
     color: #FFF2E7;
     font-weight: 600;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background-color: #181012;
+}
+
+.image {
+    max-width: 1112px;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+
+    padding: 0 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.image-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque {
+    font-family: "Epilogue";
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.image-container {
+    max-width: 45%;
+    column-count: 4;
+    gap: 1rem;
+    margin: -1rem;
+}
+
+.image-container > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
